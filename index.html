@@ -1,1 +1,72 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Władysław Farat portfolio</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/all.css">
+</head>
+<body>
+    <header id="start">
+        <nav><ul>
+            <li><a href="#start"><i class="fas fa-home"></i>Home
+            </a></li>
+            <li><a href="#projects"><i class="fas fa-briefcase"></i>Projects</a></li>
+            <li><a href="contact.html"><i class="fas fa-address-book"></i>Contact</a></li>
+        </ul></nav>
+    </header>
+    <main>
+        <section class="quote"> 
+            <h4>One of my favorite quotes:</h4><aside>(click to change)</aside>
+            <figure id="quote"></figure>
+        </section>
+        <section class="me">
+            <img src="media/me.jpg" alt="my photo">
+            <article class="skills"><h3>My Skills</h3>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+            </article>         
+        </section>
+        <section class="aboutme">
+            <h3>Hello! My name is Władysław Farat.</h3>
+            <p> I'm a rookie full stack developer, located in Poland. I was interested in computer programming for many years, but I've been mostly doing another stuff for last 10 years.
+                When I was 17 I've created my first online game server along with website, database and remote server. I've reached a database of 40000 accounts and a huge traffic on my website.
+                Unfortunately, my server got attacked by DDoS attacks, which were at that time hard to deflect. I wasn't discouraged and I've created another huge server which even crossed 1000 online users at the same moment.
+                However I fell again, because I've lacked skills to protect my server from DDoS. This failure caused my drive to programming to burn out and for next 10 years+ I've been doing close to nothing related to programming.
+            </p>
+            <p>That changed some time ago when I've decided to come back to programming and started learning on codecademy full-stack developer course. Currently I'm around 30% progress and I'm struggling to 
+                learn more and more every day.
+            </p>
+        </section>
+        <h2 id="projects">Projects</h2>
+        <article class="project1">
+            <details>
+                <summary>This will be project 1</summary>
+                This will be details for the project 1.
+            </details>
+        </article>
+        <article class="project2">
+            <details>
+                <summary>This will be project 2</summary>
+                This will be details for the project 2.
+            </details>
+        </article>
+        <article class="project3">
+            <details>
+                <summary>This will be project 3</summary>
+                This will be details for the project 3.
+            </details>
+        </article>
+    </main>
+    <footer>
+        <nav class="bottom"><ul>
+            <li><a href="#start"><i class="fas fa-home"></i>Home
+            </a></li>
+            <li><a href="#projects"><i class="fas fa-briefcase"></i>Projects</a></li>
+            <li><a href="contact.html"><i class="fas fa-address-book"></i>Contact</a></li>
+        </ul></nav>
+    </footer>
+    <script src="media/quotes.js"></script>
+</body>
+</html>
