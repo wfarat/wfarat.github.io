@@ -128,3 +128,10 @@ footer {
         display: block;
     }
 }
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 540px) and (orientation: portrait){
+    main {
+        grid-template-columns: repeat(auto-fit, minmax(51%, 100%));
+    }
+  }
