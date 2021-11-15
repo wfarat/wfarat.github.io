@@ -4,6 +4,7 @@ body {
 background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 font-family: 'Source Sans Pro', sans-serif;
+font-size: 16px;
 }
 
 header {
@@ -13,14 +14,14 @@ header {
 }
 
 nav li {
-    font-size: 22px;
+    font-size: 1.5rem;
     display: inline-block;
     padding: 10px;
 }
 
 nav i {
     margin: 0 5px;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 a {
@@ -32,11 +33,11 @@ a:focus, a:hover, a:active {
     color: grey;
 }
 h2 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 main {
     max-width: 1200px;
@@ -53,7 +54,7 @@ main {
 }
 
 .quote h4 {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 5px 0;
     display: inline-block;
 }
@@ -70,7 +71,7 @@ main {
 }
 
 i {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     margin: 5px;
 }
 
@@ -92,12 +93,12 @@ i {
     margin-bottom: 10px;
 }
 .aboutme p {
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.4;
 }
 #projects {
     grid-column: 1 / -1;
-    font-size: 2em;
+    font-size: 2rem;
 }
 article {
     grid-column: span 1;
@@ -132,6 +133,9 @@ footer {
 /* #### Mobile Phones Portrait #### */
 @media screen and (max-device-width: 540px) and (orientation: portrait){
     main {
-        grid-template-columns: repeat(auto-fit, minmax(51%, 100%));
+        grid-template-columns: repeat(auto-fit, 100%);
+    }
+    .aboutme {
+        grid-column: span 1;
     }
   }
