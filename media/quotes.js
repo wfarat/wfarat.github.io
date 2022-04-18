@@ -11,12 +11,14 @@ const quotes = {
     'Let everyone sweep in front of his own door, and the whole world will be clean.'],
     'William James' : ['It is our attitude at the beginning of a difficult task which, more than anything else, will affect its successful outcome.',
                         'The greatest discovery of my generation is that a human being can alter his life by altering his attitudes.',
-                        'Act as if what you do makes a difference. It does.'],
+                        'Act as if what you do makes a difference. It does.', 'Action may not always bring happiness, but there is no happiness without action.'],
     'Confucius' : ['Our greatest glory is not in never falling, but in rising every time we fall.', "Real knowledge is to know the extent of one's ignorance.",
-                  'Wherever you go, go with all your heart.', 'The will to win, the desire to succeed, the urge to reach your full potential... these are the keys that will unlock the door to personal excellence.']                               
+                  'Wherever you go, go with all your heart.', 'The will to win, the desire to succeed, the urge to reach your full potential... these are the keys that will unlock the door to personal excellence.'],
+    'C.G. Jung' : ['The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, both are transformed.', 'Everything that irritates us about others can lead us to an understanding of ourselves.'
+                    ,'I am not what happened to me, I am what I choose to become.', 'Your visions will become clear only when you can look into your own heart. Who looks outside, dreams; who looks inside, awakes.']                              
 }
 
-const authors = ['Marcus Aurelius', 'Lao Tzu', 'Johann Wolfgang von Goethe', 'William James', 'Confucius'];
+const authors = ['Marcus Aurelius', 'Lao Tzu', 'Johann Wolfgang von Goethe', 'William James', 'Confucius', 'C.G. Jung'];
 const quoteContainer = document.getElementById('quote');
 const pickquote = () => {
     const rnd = Math.floor(Math.random() * authors.length);
